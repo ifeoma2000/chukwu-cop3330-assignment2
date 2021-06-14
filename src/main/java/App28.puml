@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+main -> numberCalculator: Prompts User for Five Numbers
+numberCalculator --> main: Computes The Addition Of The Five Numbers
+main -> numberCalculator: Calls The Function And Computes The Sum Of The Five Numbers
+@enduml
